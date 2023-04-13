@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Nunito:ital@1&family=Roboto:wght@500&display=swap');
+
+@media(max-width: 767px)
+{
+    .h1
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .input
+    {
+        width: 100%;
+        margin-left: -10px;
+    }
+    .container
+    {
+        display: inline;
+        width: 100%;
+        margin-right: -70px;
+    }
+    .item-input
+    {
+        margin-left: -70px;
+    }
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: block;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 40%;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(45 39 52);
+}
+
+h1
+{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: auto;
+}
+
+.input-div
+{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.input
+{
+    width: 45%;
+    height: 50px;
+    position: relative;
+    left: -73px;
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.boton-agregar
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -53px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: #fff;
+    cursor: pointer;
+}
+
+.boton-agregar:hover
+{
+    opacity: 0.9;
+}
+
+.item-input
+{
+    width: 450;
+    height: auto;
+}
